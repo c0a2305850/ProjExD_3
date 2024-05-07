@@ -162,6 +162,7 @@ def main():
     # bomb = Bomb((255, 0, 0), 10)
     bombs = [Bomb((255, 0, 0), 10)for _ in range(NUM_OF_BOMBS)]  # アンダースコアはダミー変数として使える
     #beam = None
+    score = Score()
     beams = []  # ビームを複数扱う為のリスト
     clock = pg.time.Clock()
     tmr = 0
