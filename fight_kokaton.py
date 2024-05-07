@@ -162,7 +162,7 @@ def main():
     # bomb = Bomb((255, 0, 0), 10)
     bombs = [Bomb((255, 0, 0), 10)for _ in range(NUM_OF_BOMBS)]  # アンダースコアはダミー変数として使える
     beam = None
-    score = Score()
+    score = Score()  # スコアインスタンスを作成
     clock = pg.time.Clock()
     tmr = 0
     while True:
